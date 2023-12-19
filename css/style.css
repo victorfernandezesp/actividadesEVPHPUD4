@@ -47,7 +47,6 @@ td.clase_domingo {
 }
 
 td.clase_dia_local {
-  /* quiero lineargradient to right blanco, verde, blanco, verde */
   background: linear-gradient(to right, rgb(193, 193, 193) 0%, rgb(193, 193, 193) 25%, rgb(0, 128, 0) 25%, rgb(0, 128, 0) 50%, rgb(193, 193, 193) 50%, rgb(193, 193, 193) 75%, rgb(0, 128, 0) 75%, rgb(0, 128, 0) 100%);
   font-size: 18px;
   font-weight: bold;
@@ -65,7 +64,6 @@ td.clase_dia_nacional {
   color: rgb(78, 86, 137);
   font-size: 18px;
   font-weight: bold;
-  /* quiero un lineargradient con los colores de la bandera de españa (Rojigualda) */
   background: linear-gradient(to bottom, rgb(255, 0, 0) 0%, rgb(255, 0, 0) 33%, rgb(255, 219, 75) 33%, rgb(255, 219, 75) 66%, rgb(255, 0, 0) 66%, rgb(255, 0, 0) 100%);
 }
 
