@@ -239,7 +239,7 @@ if (isset($_POST["anadir"])) {
     </div>
 
     <footer>
-        <a href="#" target="_blank"> Link de Github al Ejercicio </a>
+        <a href="https://github.com/victorfernandezesp/actividadesEVPHPUD4" target="_blank"> Link de Github al Ejercicio </a>
     </footer>
 </body>
 
