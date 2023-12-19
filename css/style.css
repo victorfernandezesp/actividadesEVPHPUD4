@@ -1,0 +1,105 @@
+td {
+  background-color:  #d4d4d4;
+}
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  border: 2px solid #585858;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #999999;
+}
+
+td.clase_dia_hoy {
+  background-color: rgb(119, 189, 217);
+  font-weight: bold;
+  color: white;
+}
+
+td.clase_domingo {
+  color: white;
+  background-color: rgba(70, 70, 70, 1);
+}
+
+td.clase_dia_local {
+  /* quiero lineargradient to right blanco, verde, blanco, verde */
+  background: linear-gradient(to right, rgb(193, 193, 193) 0%, rgb(193, 193, 193) 25%, rgb(0, 128, 0) 25%, rgb(0, 128, 0) 50%, rgb(193, 193, 193) 50%, rgb(193, 193, 193) 75%, rgb(0, 128, 0) 75%, rgb(0, 128, 0) 100%);
+  font-size: 18px;
+  font-weight: bold;
+  color: gold;
+}
+
+td.clase_dia_comunidad {
+  background: linear-gradient(to bottom, rgb(0, 128, 0) 0%, rgb(0, 128, 0) 33%, rgb(193, 193, 193) 33%,rgb(193, 193, 193) 66%, rgb(0, 128, 0) 66%, rgb(0, 128, 0) 100%);
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(0, 128, 0);
+}
+
+td.clase_dia_nacional {
+  color: rgb(78, 86, 137);
+  font-size: 18px;
+  font-weight: bold;
+  /* quiero un lineargradient con los colores de la bandera de españa (Rojigualda) */
+  background: linear-gradient(to bottom, rgb(255, 0, 0) 0%, rgb(255, 0, 0) 33%, rgb(255, 219, 75) 33%, rgb(255, 219, 75) 66%, rgb(255, 0, 0) 66%, rgb(255, 0, 0) 100%);
+}
+
+td.clase_dia_tarea{
+  background-color: rosybrown;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+
+.tareas{
+  padding: 10px;
+  margin-bottom: 20px;
+  padding: 2px;
+}
+.tareas h2{
+  text-align: center;
+  color: #333;
+}
+.tareas ul {
+  font-size: 8px;
+  list-style-type: none;
+  padding-left: 5px;
+  margin: 0;
+}
+
+form {
+  margin: 0 auto;
+  width: 400px;
+  padding: 20px;
+  border: 2px solid #585858;
+  background-color: #d4d4d4;
+}
+footer {
+  margin-top: 20px;
+  text-align: center;
+}
